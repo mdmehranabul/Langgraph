@@ -1,0 +1,25 @@
+[project]
+name = "reflection-agent"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "mdmehranabul", email = "mehranabul@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+dependencies = [
+    "python-dotenv (>=1.2.1,<2.0.0)",
+    "black (>=25.11.0,<26.0.0)",
+    "isort (>=7.0.0,<8.0.0)",
+    "langchain (>=1.1.1,<2.0.0)",
+    "langchain-openai (>=1.1.0,<2.0.0)",
+    "langgraph (>=1.0.4,<2.0.0)",
+    "grandalf (>=0.8,<0.9)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
